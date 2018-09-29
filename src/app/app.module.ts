@@ -20,6 +20,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SearchComponent } from './components/search/search.component';
 import { OneWayComponent } from './components/search/one-way/one-way.component';
 import { ReturnComponent } from './components/search/return/return.component';
+import { ResultComponent } from './components/result/result.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ReturnComponent } from './components/search/return/return.component';
     HeaderComponent,
     SearchComponent,
     OneWayComponent,
-    ReturnComponent
+    ReturnComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,
