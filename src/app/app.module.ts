@@ -21,6 +21,8 @@ import { SearchComponent } from './components/search/search.component';
 import { OneWayComponent } from './components/search/one-way/one-way.component';
 import { ReturnComponent } from './components/search/return/return.component';
 import { ResultComponent } from './components/result/result.component';
+import { FlightRouteHeaderComponent } from './components/result/flight-route-header/flight-route-header.component';
+import { FlightInfoComponent } from './common/flight-info/flight-info.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ResultComponent } from './components/result/result.component';
     SearchComponent,
     OneWayComponent,
     ReturnComponent,
-    ResultComponent
+    ResultComponent,
+    FlightRouteHeaderComponent,
+    FlightInfoComponent,
   ],
   imports: [
     BrowserModule,
