@@ -23,6 +23,7 @@ import { ReturnComponent } from './components/search/return/return.component';
 import { ResultComponent } from './components/result/result.component';
 import { FlightRouteHeaderComponent } from './components/result/flight-route-header/flight-route-header.component';
 import { FlightInfoComponent } from './common/flight-info/flight-info.component';
+import { BasicFlightInfoComponent } from './common/basic-flight-info/basic-flight-info.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { FlightInfoComponent } from './common/flight-info/flight-info.component'
     ResultComponent,
     FlightRouteHeaderComponent,
     FlightInfoComponent,
+    BasicFlightInfoComponent,
   ],
   imports: [
     BrowserModule,
