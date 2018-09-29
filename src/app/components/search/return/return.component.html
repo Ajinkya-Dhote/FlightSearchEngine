@@ -19,9 +19,15 @@
   </mat-form-field>
 
   <mat-form-field>
-    <input matInput [matDatepicker]="picker" placeholder="Departure date">
-    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-    <mat-datepicker #picker></mat-datepicker>
+    <input matInput [matDatepicker]="departureDatePicker" placeholder="Depature date">
+    <mat-datepicker-toggle matSuffix [for]="departureDatePicker"></mat-datepicker-toggle>
+    <mat-datepicker #departureDatePicker></mat-datepicker>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput [matDatepicker]="returnDatePicker" placeholder="Reyurn date">
+    <mat-datepicker-toggle matSuffix [for]="returnDatePicker"></mat-datepicker-toggle>
+    <mat-datepicker #returnDatePicker></mat-datepicker>
   </mat-form-field>
 
   <div>

@@ -19,13 +19,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SearchComponent } from './components/search/search.component';
 import { OneWayComponent } from './components/search/one-way/one-way.component';
+import { ReturnComponent } from './components/search/return/return.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SearchComponent,
-    OneWayComponent
+    OneWayComponent,
+    ReturnComponent
   ],
   imports: [
     BrowserModule,
